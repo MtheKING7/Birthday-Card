@@ -1,0 +1,201 @@
+body {
+    font-family: 'Rakkas', cursive;
+    text-align: center;
+    background: linear-gradient(rgb(81, 136, 118), rgb(152, 252, 219));
+    margin: 0px;
+}
+
+
+.hero {
+    color: white;
+    text-shadow: 4px 4px 10px rgb(59, 99, 85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+
+#prof-img {
+    border-radius: 500px;
+    height: 200px;
+    border :rgb(51, 85, 74) solid 6px;
+}
+
+
+#bday-text {
+    margin-top: 50px;
+}
+
+
+.bday-info {
+    margin-top: 75px;
+    background :rgb(51, 85, 74);
+    padding: 5px 10px;
+    border: 0 solid;
+    border-radius: 10px;
+}
+
+
+.bday-his {
+    background :rgb(51, 85, 74);
+    padding: 5px 10px;
+    border: 0 solid;
+    border-radius: 10px;
+}
+
+
+
+
+
+/*       quote section      */
+
+
+.quote-head {
+    background-image: url("Love.webp");
+    height: 500px;
+    background-size: cover;
+    color: white;
+    margin: 75px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+
+#france-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(185, 34, 72);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#quote-title {
+    border: 0 solid;
+    border-radius: 20px;
+    background-color: rgb(136, 43, 63);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+}
+
+
+#quote-p {
+    border: 0 solid;
+    border-radius: 20px;
+    background-color: rgb(185, 34, 72);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 5px;
+}
+
+
+.underline {
+    text-decoration: underline 2px;
+}
+
+
+
+
+
+/*      side quotes section     */
+
+.side-quote {
+    margin-top: 50px;
+    margin-bottom: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.greece-q {
+    color: rgb(59, 59, 59);
+}
+
+#greece-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(84, 139, 121);
+}
+
+
+
+.latin-q {
+    color: rgb(59, 59, 59);
+}
+
+#latin-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(84, 139, 121);
+}
+
+
+.italy-q {
+    color: rgb(59, 59, 59);
+}
+
+#italy-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(84, 139, 121);
+}
+
+.quote-size {
+    width: 300px;
+}
+
+
+/*       gift section         */
+
+
+.gift-div {
+    margin-top: 100px;
+}
+
+
+#gift-title {
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 10px rgb(167, 255, 149);
+    margin-bottom: 2px;
+}
+
+
+#gift-text {
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 10px rgb(167, 255, 149);
+    margin-top: 2px;
+}
+
+
+#gift-img {
+    background-image: url("gift-cover.png");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+
+    border :rgb(84, 139, 121) solid 6px;
+    border-radius: 10px;
+
+    margin: 0 auto;
+}
+
+
+#gift-img:hover {
+    background-image: url("BEBEL3.jpg");
+}
+
+
+
+
+
+#link {
+    color: rgb(70, 69, 69);
+    font-size: small;
+    width: 250px;
+    margin: 150px auto 0 auto;
+}
